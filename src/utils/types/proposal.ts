@@ -7,3 +7,10 @@ export interface ProposalDataType {
   voteLimit: number;
   publishDate: null | string;
 }
+
+export interface FormCreateProposal {
+  description: string;
+  correctAnswer: string;
+  rewardPercent: string;
+  votesLimit: string;
+}
